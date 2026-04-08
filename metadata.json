@@ -1,0 +1,5 @@
+{
+  "name": "OpenEnv Baseline Agent",
+  "description": "A simple, working baseline agent for OpenEnv environments using Python and OpenAI client.",
+  "requestFramePermissions": []
+}

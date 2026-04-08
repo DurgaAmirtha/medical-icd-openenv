@@ -1,0 +1,23 @@
+environment:
+  name: "MedicalICD-v1"
+  description: "A simple medical ICD coding environment for hackathon validation."
+  version: "1.0.0"
+
+tasks:
+  - id: "task_easy"
+    name: "Simple Cough"
+    difficulty: "easy"
+  - id: "task_medium"
+    name: "Fever and Throat"
+    difficulty: "medium"
+  - id: "task_hard"
+    name: "Complex Symptoms"
+    difficulty: "hard"
+
+spaces:
+  action_space:
+    type: "discrete"
+    description: "ICD-10 Codes (e.g., R05, J02, M32)"
+  observation_space:
+    type: "text"
+    description: "Natural language patient symptoms"
